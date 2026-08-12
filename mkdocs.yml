@@ -38,7 +38,10 @@ plugins:
 nav:
   - 首页: index.md
   - 知识地图 (00-Index): 00-Index/index.md
-  - Python (01): 01-Python/index.md
+  - Python (01):
+      - 板块索引: 01-Python/index.md
+      - 语言特性:
+          - 装饰器（示例）: 01-Python/Language-Features/Decorators.md
   - 机器学习算法 (02): 02-ML-Algorithms/index.md
   - 深度学习 (03): 03-DeepLearning/index.md
   - NLP 与 LLM (04): 04-NLP-LLM/index.md
