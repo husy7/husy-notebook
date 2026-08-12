@@ -4,9 +4,9 @@
 
 ## 当前状态
 
-- 已 `git init`，处于本地开发阶段（无远程仓库）。
-- 仓库现有文件：`AGENTS.md`、`README.md`、`.gitignore`、`docs/`（含目录骨架与 `docs/_template.md`）。
-- `mkdocs.yml` 与 `.github/` 尚未创建——规划见 `README.md` 的 Roadmap。
+- 已 `git init`（默认分支 `main`），处于本地开发阶段（无远程仓库）。
+- 仓库现有文件：`AGENTS.md`、`README.md`、`.gitignore`、`docs/`（含目录骨架、`docs/_template.md` 与 `docs/javascripts/mathjax.js`）、`mkdocs.yml`（Material 主题 + Mermaid + MathJax，已通过 `mkdocs build` 验证）。
+- `.github/` 尚未创建（无远程仓库，CI 部署规划见 `README.md` 的 Roadmap）。
 
 ## 技术栈与硬性规则
 
