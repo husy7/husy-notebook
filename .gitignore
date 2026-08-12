@@ -1,4 +1,6 @@
 .codegraph/
+.omo/
+.reasonix/
 __pycache__/
 *.pyc
 .venv/

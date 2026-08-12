@@ -41,7 +41,7 @@ nav:
   - Python (01):
       - 板块索引: 01-Python/index.md
       - 语言特性:
-          - 装饰器（示例）: 01-Python/Language-Features/Decorators.md
+          - 装饰器: 01-Python/Language-Features/Decorators.md
   - 机器学习算法 (02): 02-ML-Algorithms/index.md
   - 深度学习 (03): 03-DeepLearning/index.md
   - NLP 与 LLM (04): 04-NLP-LLM/index.md
@@ -95,6 +95,10 @@ markdown_extensions:
 extra_javascript:
   - javascripts/mathjax.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+
+extra_css:
+  - stylesheets/extra.css
 
 extra_css:
   - stylesheets/extra.css
