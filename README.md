@@ -49,7 +49,7 @@
 ```
 knowledge-base/
 ├── README.md
-├── mkdocs.yml                      # 待创建
+├── mkdocs.yml                      # 已创建
 ├── _template.md                    # 已迁入 docs/
 ├── docs/
 │   ├── 00-Index/                   # MOC 知识地图（入口索引）
@@ -103,9 +103,11 @@ knowledge-base/
 
 ## 工作流程
 
-- **Git 初始化**：尚未执行 `git init`（待启动）。初始化后 `.gitignore` 须忽略：
+- **Git 初始化**：已执行 `git init`。`.gitignore` 忽略：
   ```
   .codegraph/
+  .omo/
+  .reasonix/
   __pycache__/
   *.pyc
   .venv/
@@ -131,9 +133,9 @@ knowledge-base/
 
 ## Roadmap
 
-- [ ] 执行 `git init`，配置 `.gitignore`
-- [ ] 创建 `docs/` 目录结构
-- [ ] 配置 `mkdocs.yml` 并测试本地构建
+- [x] 执行 `git init`，配置 `.gitignore`
+- [x] 创建 `docs/` 目录结构
+- [x] 配置 `mkdocs.yml` 并测试本地构建
 - [ ] 编写首批核心笔记（按优先级）：
   1. ✅ `01-Python/Language-Features/Decorators.md`（示例笔记，已完成）
   2. `03-DeepLearning/PyTorch/Tensor-Basics.md`
