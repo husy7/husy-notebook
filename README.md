@@ -135,7 +135,7 @@ knowledge-base/
 - [ ] 创建 `docs/` 目录结构
 - [ ] 配置 `mkdocs.yml` 并测试本地构建
 - [ ] 编写首批核心笔记（按优先级）：
-  1. `01-Python/Language-Features/Decorators.md`
+  1. ✅ `01-Python/Language-Features/Decorators.md`（示例笔记，已完成）
   2. `03-DeepLearning/PyTorch/Tensor-Basics.md`
   3. `02-ML-Algorithms/Linear-Models/LinearRegression-Code.md`
   4. `06-AI-Agents/Agent-Architecture/What-is-Agent.md`
