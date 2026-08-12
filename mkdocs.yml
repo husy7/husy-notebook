@@ -106,3 +106,4 @@ extra_css:
 # 模板文件不参与站点构建
 exclude_docs: |
   _template.md
+  **/*-note.md
