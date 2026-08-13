@@ -4,5 +4,7 @@
 __pycache__/
 *.pyc
 .venv/
-site/
 .DS_Store
+site/
+.env
+AGENTS.md
