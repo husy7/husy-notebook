@@ -14,6 +14,7 @@
 - 静态站点规划用 **MkDocs + Material 主题**（GitHub Pages，未配置）。
 - `.codegraph/` 是本地代码索引数据，**切勿提交**（自带 `.gitignore`，已自动忽略）。
 - `_template.md` 位于 **docs/ 根目录**，是新笔记的起点。
+- 修改 `docs/_template.md` 结构后，运行 `python scripts/sync_note_templates.py` 一键同步各笔记子目录的 `<目录>-note.md` 模板（幂等；`--check` 仅检查）。
 - AI 辅助生成的笔记，**必须在文末注明**"本文借助 AI 工具生成，经人工审核"。
 
 ## 笔记规范（要点）
