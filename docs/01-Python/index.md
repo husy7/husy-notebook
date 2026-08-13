@@ -19,7 +19,7 @@ tags: [Python]
 
 ## 规划笔记
 
-- [x] [装饰器（示例笔记）](Language-Features/Decorators.md) —— 费曼五步法示范
+- [x] [装饰器（示例笔记）](Language-Features/Decorators.md) —— 新模板五段式示范
 - [ ] 闭包与作用域（Closures）
 - [ ] 生成器与迭代器（Generators）
 - [ ] asyncio 事件循环与协程

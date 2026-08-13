@@ -202,9 +202,9 @@ if __name__ == "__main__":
 
 ### 5.2 关联笔记
 
-- 依赖前置知识：[[闭包与作用域]]（01-Python/Language-Features，规划中）
-- 进阶方向：[[生成器与迭代器]]（01-Python/Language-Features，规划中）
-- 相关踩坑记录：[[10-Debug-Log/index.md]]
+- 依赖前置知识：闭包与作用域（规划中，笔记创建后补链接）
+- 进阶方向：生成器与迭代器（规划中，笔记创建后补链接）
+- 相关踩坑记录：[10-Debug-Log 踩坑记录](../../10-Debug-Log/index.md)
 
 ---
 
