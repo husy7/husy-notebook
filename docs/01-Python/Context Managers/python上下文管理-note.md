@@ -85,5 +85,4 @@ if __name__ == "__main__":
 - [Python 官方文档：contextlib — 上下文管理器工具](https://docs.python.org/zh-cn/3/library/contextlib.html)
 - [Python 官方文档：with 语句](https://docs.python.org/zh-cn/3/reference/compound_stmts.html#the-with-statement)
 
-## 具体实际案例
-[[提供一个覆盖所有知识点的具体实际案例]](知识点名称_sample.py)
+[[提供一个覆盖所有知识点的具体实际案例]](上下文管理_sample.py)
