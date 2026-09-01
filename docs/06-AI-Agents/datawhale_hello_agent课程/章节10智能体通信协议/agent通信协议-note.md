@@ -242,3 +242,68 @@ async with client:
 - A2A = 智能体对话标准
 - ANP = 智能体网络标准
 - 三者统一抽象为 `Tool` 接口，在 HelloAgents 中无缝集成。
+
+## 参考资料
+
+### 一、MCP 官方资源
+
+**官方组织与规范**
+
+- **MCP 官方 GitHub 组织**：https://github.com/modelcontextprotocol —— 包含协议规范、各语言 SDK 及参考服务器的官方仓库
+- **协议规范与文档**：https://github.com/modelcontextprotocol/modelcontextprotocol —— MCP 协议规范和白皮书，由 Linux 基金会托管
+
+**官方 SDK（多语言支持）**
+
+- **Python SDK**：https://github.com/modelcontextprotocol/python-sdk —— 官方 Python 实现，v2.0.0 已稳定发布，支持 2026-07-28 协议修订版
+- **TypeScript SDK**：https://github.com/modelcontextprotocol/typescript-sdk —— 官方 TypeScript 实现，支持 Node.js、Bun 和 Deno
+- **其他语言 SDK**：Go、Java、Kotlin、C#、PHP、Ruby、Rust、Swift 等官方 SDK 均在 MCP 组织下维护
+
+**官方参考服务器**
+
+- **servers 仓库**：https://github.com/modelcontextprotocol/servers —— MCP 参考实现集合，包含 Everything（测试服务器）、Fetch（网页抓取）、Filesystem（安全文件操作）、Git（仓库操作）、Memory（知识图谱记忆）、Sequential Thinking（序列化思考）、Time（时间转换）等
+
+**MCP 官方 Registry**
+
+- **MCP Registry**：https://registry.modelcontextprotocol.io/ —— 官方 MCP 服务器目录，可浏览已发布的社区服务器
+
+---
+
+### 二、MCP 社区资源
+
+**社区整理的服务器列表**
+
+- **awesome-mcp-servers**：https://github.com/mctrinh/awesome-mcp-servers —— 精选 MCP 服务器列表，涵盖 A2A 桥接、Airtable、AWS、GitHub、Google Maps、Slack 等数百个服务器
+- **awesome-mcp**：https://github.com/shaneholloman/awesome-mcp —— 按领域分类的 MCP 服务器合集，包含聚合器、数据库、浏览器自动化、云平台等类别
+- **awesome-mcp（abordage）**：https://github.com/abordage/awesome-mcp —— 每日自动更新的 MCP 服务器、客户端和框架列表
+
+**社区目录与生态**
+
+- **MCP-Directory**：https://github.com/girishlade111/MCP-Directory —— 最全面的社区驱动 MCP 服务器目录，收录 100+ 服务器，支持 Claude Code、Gemini CLI、Cursor 等工具
+- **mcp-servers-microsoft-ecosystem**：https://github.com/ppiova/mcp-servers-microsoft-ecosystem —— 微软生态 MCP 服务器目录，涵盖 Azure、Microsoft 365、Fabric、GitHub、Copilot Studio
+
+**知名 MCP 服务器**
+
+- **GitHub MCP Server**：GitHub 官方的 MCP 服务器实现，使 AI 智能体能够通过 MCP 协议与 GitHub API 无缝交互，访问仓库、Issue 和 PR
+- **Brave Search MCP Server**：https://github.com/brave/brave-search-mcp-server —— Brave 官方搜索 MCP 服务器
+
+---
+
+### 三、A2A 与 ANP 资源
+
+**A2A（Agent-to-Agent Protocol）**
+
+- **A2A 官方项目**：https://a2aproject.github.io/A2A —— Google 发起的开放协议，支持不同供应商和框架的 AI 智能体安全通信与协作
+- **A2A 参考实现**：https://github.com/SURESHBEEKHANI/Agent2Agent-A2A-protocol —— 包含 Greeting Agent 入门示例和多智能体羽毛球调度系统（使用 Google ADK、LangChain、CrewAI）
+
+**ANP（Agent Network Protocol）**
+
+- **ANP 官方仓库**：https://github.com/agent-network-protocol/AgentNetworkProtocol —— 开源智能体通信协议，致力于成为“Agentic Web 时代的 HTTP”
+- **AgentConnect 实现**：https://github.com/agent-network-protocol/AgentConnect —— ANP 协议的开源实现
+- **mcp2anp 桥接服务**：https://github.com/agent-network-protocol/mcp2anp —— MCP ↔ ANP 桥接服务，让支持 MCP 的客户端像调用本地工具一样使用 ANP 智能体
+
+---
+
+### 四、HelloAgents 项目
+
+- **HelloAgents GitHub**：https://github.com/datawhalechina/hello-agents —— 本笔记所属的开源项目，包含完整的智能体学习教程和配套代码
+- **第 10 章源码**：hello-agents/docs/chapter10/Chapter10-Agent-Communication-Protocols.md —— 智能体通信协议（MCP、A2A、ANP）章节的完整实现
