@@ -1,10 +1,10 @@
 ---
-title: "NLP 与 LLM（04）"
+title: "NLP （04）"
 description: "文本预处理、词嵌入、Seq2Seq 与注意力、大语言模型应用。"
 tags: [NLP, LLM]
 ---
 
-# NLP 与 LLM（04）
+# NLP （04）
 
 > **板块定位**：从文本预处理、Embedding、Seq2Seq 到现代 LLM 应用——NLP 全链路。
 
