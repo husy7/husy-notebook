@@ -1,5 +1,5 @@
 ---
-title: "RAG 检索增强生成系统（2026 优化版）"
+title: "RAG 检索增强生成系统"
 tags: [RAG, 向量检索, 知识库, AI, 自适应检索, GraphRAG, AgenticRAG]
 date: 2026-08-26
 ---
