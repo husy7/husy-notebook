@@ -9,3 +9,9 @@ site/
 .env
 AGENTS.md
 *.whl
+output/
+temp_gorilla/
+evaluation_results/
+result/
+evaluation_reports/
+memory_data/
