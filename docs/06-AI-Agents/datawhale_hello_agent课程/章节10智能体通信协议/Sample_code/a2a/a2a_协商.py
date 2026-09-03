@@ -60,3 +60,4 @@ def negotiate_task(text: str) -> str:
 # 启动服务
 threading.Thread(target=lambda: agent1.run(port=7000), daemon=True).start()
 threading.Thread(target=lambda: agent2.run(port=7001), daemon=True).start()
+
