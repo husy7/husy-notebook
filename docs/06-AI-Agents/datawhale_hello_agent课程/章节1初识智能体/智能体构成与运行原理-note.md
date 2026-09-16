@@ -1,7 +1,7 @@
 ---
 title: "智能体构成与运行原理"
 tags: [ai, agent, hello-agents, PEAS, AgentLoop]
-date: 2026-09-14
+date: 2026-08-14
 ---
 
 # 智能体构成与运行原理
