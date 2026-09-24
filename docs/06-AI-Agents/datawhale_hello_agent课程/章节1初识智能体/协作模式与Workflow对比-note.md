@@ -1,7 +1,7 @@
 ---
 title: "协作模式与 Workflow/Agent 对比"
 tags: [ai, agent, hello-agents, Workflow, 协作模式]
-date: 2026-09-14
+date: 2026-08-14
 ---
 
 # 协作模式与 Workflow/Agent 对比
